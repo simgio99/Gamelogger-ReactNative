@@ -8,6 +8,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -70,7 +71,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Porco Dio">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
